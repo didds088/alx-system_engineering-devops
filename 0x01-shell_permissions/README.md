@@ -11,3 +11,4 @@
 - chmod 007 hello sets the permission to the file hello
 - chmod 753 hello sets the mode of the file hello
 - chmod --reference=olleh hello sets the mode of the file hello the same as olleh’s mode
+- chmod -R ugo+X * execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
