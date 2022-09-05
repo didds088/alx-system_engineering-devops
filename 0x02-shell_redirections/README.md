@@ -24,4 +24,5 @@
 - rev reverse its input
 - cut -d":" -f1,6 /etc/passwd | sort displays all users and their home directories, sorted by users
 - find . -empty -printf '%f\n' finds all empty files and directories in the current directory and all sub-directories
-- find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f lists all the files with a .gif extension in the current directory and all its sub-directories
+- find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f lists all the files with a .gif extension in the current directory and all its sub-director
+- cut -c 1 | paste -s -d '' decodes acrostics that use the first letter of each line
