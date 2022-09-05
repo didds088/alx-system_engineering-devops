@@ -21,4 +21,5 @@
 - grep ^[a-zA-Z] /etc/ssh/sshd_config displays all lines of the file /etc/ssh/sshd_config starting with a letter
 - tr Ac Ze replaces all characters A and c from input to Z and e respectively
 - tr -d cC removes all letters c and C from input
-- rev displays all users and their home directories, sorted by users
+- rev reverse its input
+- cut -d":" -f1,6 /etc/passwd | sort displays all users and their home directories, sorted by users
