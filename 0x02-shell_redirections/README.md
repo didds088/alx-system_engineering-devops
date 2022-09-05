@@ -1,8 +1,8 @@
 # Shell, I/O Redirections and filters
 ***
-1. echo "Hello, World" prints “Hello, World”, followed by a new line to the standard output
-2. echo "\"(Ôo)'" displays a confused smiley "(Ôo)'
-3. cat /etc/passwd displays the content of the /etc/passwd file
+- echo "Hello, World" prints “Hello, World”, followed by a new line to the standard output
+- echo "\"(Ôo)'" displays a confused smiley "(Ôo)'
+- cat /etc/passwd displays the content of the /etc/passwd file
 - cat /etc/passwd /etc/hosts displays the content of /etc/passwd and /etc/hosts
 - tail /etc/passwd displays the last 10 lines of /etc/passwd
 - head /etc/passwd displays the first 10 lines of /etc/passwd
@@ -15,3 +15,4 @@
 - ls -t | head -n 10 that displays the 10 newest files in the current directory
 - sort | uniq -u takes a list of words as input and prints only words that appear exactly once
 - grep -e "root" /etc/passwd displays lines containing the pattern “root” from the file /etc/passwd
+- grep -c "bin" /etc/passwd displays the number of lines that contain the pattern “bin” in the file /etc/passwd
