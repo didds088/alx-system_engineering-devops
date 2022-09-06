@@ -5,4 +5,4 @@
 - export PATH=$PATH:/action Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program
 - echo $PATH | tr : "\n" | wc -l counts the number of directories in the PATH
 - printenv | less Create a script that lists environment variables.
-- set | less lists all local variables and environment variables, and functions.
+- set | less lists all local variables and environment variables, and functions.- BEST="School" creates a new local variable.
