@@ -7,4 +7,4 @@
 - printenv | less Create a script that lists environment variables.
 - set | less lists all local variables and environment variables, and functions.- BEST="School" creates a new local variable.
 - export BEST="School" Create a script that creates a new global variable.
-- echo $((128+$TRUEKNOWLEDGE)) prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+- echo $((128+$TRUEKNOWLEDGE)) prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.- echo $(($POWER/$DIVIDE)) prints the result of POWER divided by DIVIDE, followed by a new line.
